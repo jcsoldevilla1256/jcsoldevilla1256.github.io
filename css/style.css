@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito&family=Playfair+Display:wght@700&family=Raleway:wght@500&display=swap');
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #25282B;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a:visited {
+    color: #25282B;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+}
+
+.right-link-container {
+    display: flex;
+    gap: 50px;
+}
+
+.right-link-container .right-link {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero-text {
+    margin-left: 120px;
+    max-width: 486px;
+}
+
+.ht1 {
+    margin-top: 80px;
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ht2 {
+    color: #25282B;
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+.ht3 {
+    color: #828282;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+}
