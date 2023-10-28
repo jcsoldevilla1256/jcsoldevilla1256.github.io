@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-html {
+body {
     background-color: #F9FAFF;
 }
 
@@ -26,6 +26,10 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 20px 120px;
+}
+
+header a:hover {
+    color: #FDC435;
 }
 
 .right-link-container {
@@ -74,10 +78,11 @@ header {
 
 .hero-button {
     padding: 8px 24px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: none;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .b1 {
@@ -88,4 +93,112 @@ header {
 .b2 {
     background-color: #F9FAFF;
     border: 2px solid;
+}
+
+.profile-image {
+    max-width: 720px;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CARD SECTION */
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.card-section-title {
+    font-size: 48px;
+    color: #25282B;
+    font-family: 'Playfair Display', serif;
+}
+
+.rectangle {
+    width: 100px;
+    height: 4px;
+    background-color: #FDC435;
+    border-radius: 2px;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 80px;
+    box-shadow: 1px 1px 30px rgb(233, 233, 233);
+    border-radius: 15px;
+    margin-bottom: 145px;
+    /* put shadow */
+}
+
+.card-text {
+    width: 496px;
+    height: 524px;
+    background-color: #FFFFFF;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-contain {
+    padding: 50px;
+}
+
+.card-contain p { 
+    margin-bottom: 35px;
+}
+
+.project-title {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.project-desc {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #828282;
+}
+
+.card-contain button {
+    border: 1px solid black;
+    padding: 15px 23px;
+    border-radius: 27px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card-image {
+    width: 496px;
+    height: 524px;
+    border-radius: 0 15px 15px 0px;
+}
+
+/* CONTACT INFO */
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 82px;
+}
+
+footer p {
+    color: #828282;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
 }
